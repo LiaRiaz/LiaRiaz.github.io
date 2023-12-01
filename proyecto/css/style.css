@@ -1,0 +1,96 @@
+notpadding{
+    padding: 0%;
+}
+
+/* reglas del logo */
+.logo ul a li{
+    list-style: none;
+}
+/* reglas del diseño del menu del header */
+.menu ul{
+    list-style: none;
+    position: relative;
+    bottom: 50px;
+}
+
+.menu ul a li{
+    float: left;
+    color:black;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 37px;
+}
+.menu ul a li:hover{
+    border: 3px;
+    border-color: black;
+}
+
+.logo img{
+    padding-top: 50px;
+}
+
+/* reglas del contenido  ancho 620 alto 413 */
+.content .title {
+    text-align: center;
+}
+.content .anhelo img{
+    text-align: center;
+    width: 930px;
+    height: 620px;
+    padding-bottom: 30px;
+}
+/* reglas de about us */
+
+.about{
+    background-color: black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.about .des{
+    color: white;
+}
+/* reglas producto */
+.content2{
+    background-color: black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+.content2 .imgs{
+    margin: 15px;
+    margin-top: 15px;
+}
+/* reglas de contacto */
+
+.contacto{
+    margin-bottom: 30px;
+}
+.formulario input{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.contacto.button{
+    margin-bottom: 20px;
+}
+/* reglas de diseño dle footer */
+.footer{
+    background: black;
+    padding: 20px 15px;
+}
+.footer .social{
+    text-align: center;
+}
+.footer .social ul{
+    list-style: none;
+}
+.footer .social ul a li{
+    float:left;
+    margin-left: 15px;
+}
+.footer .social ul a li img{
+    width: 50px;
+}
